@@ -11,7 +11,30 @@
 
 </head>
 <body>
-    <nav></nav>
+    <div class="interface">
+    <div class="collectData">
+        <form action="#" onsubmit="return false">
+            <label for="period">Collect data </label>
+            <input type="text" name="period" id="period" required>
+
+            <label for="periodTime"> time(s)</label>
+            <select name="periodTime" id="periodTime" required>
+                <option>an hour</option>
+                <option value="cat">a day</option>
+                <option value="hamster">a week</option>
+                <option value="parrot">a year</option>
+            </select>
+            <input type="submit" value=">Change period time">
+        </form>
+    </div>
+    <div class="selectData">
+        <label for="data">Choose the data you want</label>
+        <br>
+        <select id="data"></select>
+    </div>
+    <div class="data"></div>
+
+</div>
     <div id="map"></div>
 </body>
 </html>
