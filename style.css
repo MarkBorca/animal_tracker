@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    display: flex;
+}
+nav{
+    background-color: aqua;
+    width: 300px;
+    height: 100vh;
+}
+.map{
+    background-color: green;
+    width: calc(100% - 300px);
+    height: 100vh;
+}
