@@ -7,7 +7,7 @@ nav{
     width: 300px;
     height: 100vh;
 }
-.map{
+#map{
     background-color: green;
     width: calc(100% - 300px);
     height: 100vh;
